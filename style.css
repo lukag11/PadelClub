@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;700&family=Kdam+Thmor+Pro&family=Poppins:wght@100&family=Rubik:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Rubik',
+        sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+body {
+    width: 100%;
+    color: white;
+}
+
+:root {
+
+    --green: #56ab2f;
+
+
+
+}
+
+/* MODO DESKTOP */
+
+.section-container {
+    /* background-color: var(--green); */
+
+    background-image: url(img/backgroundpage2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 70px 0px;
+    width: 95%;
+    max-width: 1300px;
+}
+
+/* ! Header */
+
+.header-container {
+    position: sticky;
+    top: 0%;
+    z-index: 9999;
+}
+
+.header {
+    margin: 0 auto;
+    max-width: 1300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px 0px 50px;
+    /* border: 1px solid blue; */
+}
+
+
+/* - INICIAR SESION Y REGISTRARSE  */
+
+
+.tab-group {
+    /* border: 1px solid red; */
+    max-width: 1300px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.signup {
+    margin: 10px;
+    background: white;
+
+    /* border: 5px solid black; */
+}
+
+
+
+.signin {
+    margin: 10px;
+    background: white;
+    /* border: 1px solid black; */
+}
+
+.signin:hover,
+.signup:hover {
+    background: black;
+    transition: all 0.4 linear;
+}
+
+/* ////////////////////////////////////////// */
+
+/* - NAV BAR Y MENU HAMBURGESA */
+
+.logo-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    height: 80%;
+}
+
+.navbar,
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    /* border: 1px solid red; */
+}
+
+
+
+.navbar-list {
+    gap: 40px;
+}
+
+.nav-bar i {
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+#toggle-menu {
+    display: none;
+}
+
+.nav-bar a {
+
+    font-size: 20px;
+    color: white;
+    background: black;
+    border: 5px solid black;
+
+    border-radius: 15px;
+
+
+
+}
+
+/* ! MODO RESPONSIVE */
+@media (max-width: 992px) {
+    .header {
+        padding: 0px 40px 0px 10px;
+    }
+
+    .nav-bar i {
+        display: block;
+    }
+
+    .navbar-list {
+        position: absolute;
+        background-image: url(img/backgroundpage2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-direction: column;
+        top: 90px;
+        right: 0;
+        width: 100%;
+        height: calc(100vh - 100px);
+        display: none;
+        z-index: 9999;
+
+
+
+    }
+
+    #toggle-menu:checked+.navbar-list {
+        display: flex;
+    }
+
+
+}
