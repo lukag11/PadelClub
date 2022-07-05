@@ -503,7 +503,9 @@ body {
     }
 
     .section-p {
-
+        font-family: 'Times New Roman',
+            Times,
+            serif;
         font-size: 20px;
         text-align: center;
         text-decoration: solid;
@@ -530,10 +532,12 @@ body {
     }
 
     .section-info-p {
-
+        font-family: 'Times New Roman', Times, serif;
         font-size: 20px;
 
     }
+
+
 
     .training-card {
         flex-direction: column;
