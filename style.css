@@ -424,7 +424,136 @@ body {
 
 
 
+/* - Products */
 
+
+.section-container-products {
+    background-color: black;
+
+}
+
+.section-products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 70px 0px;
+    width: 95%;
+    max-width: 1300px;
+
+}
+
+.products-title {
+    text-align: center;
+    width: 85%;
+}
+
+/* //SCROLL AUTO A SECCION */
+
+#products {
+    gap: 40px;
+}
+
+
+
+
+.products-cards-container {
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    gap: 150px;
+
+}
+
+.products-card {
+
+
+    margin: 4rem auto 0 auto;
+    font-weight: bolder;
+    padding: 10px 10px;
+    border: 3px groove #53ff50;
+
+}
+
+
+
+.section-title-products {
+    font-family: 'Kdam Thmor Pro',
+        sans-serif;
+    font-size: 80px;
+
+}
+
+.section-info-products {
+    font-family: 'Kdam Thmor Pro',
+        sans-serif;
+    font-size: 18px;
+}
+
+.products-info-title {
+    text-align: center;
+    font-weight: bolder;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+.btn-products {
+    background: var(--green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+
+    color: black;
+
+}
+
+.btn-products:hover {
+    background-color: aqua;
+}
+
+
+
+
+
+
+.paleta-img {
+    width: 200px;
+    height: 200px;
+    background: no-repeat center/cover;
+}
+
+
+.section-p-estilo-paleta {
+    text-align: center;
+    font-weight: bolder;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+
+
+}
+
+
+
+
+
+.divider {
+    width: min(90%, 600px);
+    margin-top: 100px;
+    height: 4px;
+    background-color: var(--green);
+}
 
 
 
@@ -493,7 +622,7 @@ body {
         justify-content: center;
         align-items: center;
         background-size: 768px;
-        border: 1px solid red;
+
     }
 
     .section-title {
