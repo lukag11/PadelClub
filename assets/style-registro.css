@@ -24,7 +24,7 @@
     align-items: center;
     padding: 40px;
     border-radius: 10px;
-    gap: 40px;
+    gap: 20px;
 }
 
 h2 {
@@ -103,10 +103,7 @@ form input {
 }
 
 
-.registrarse:hover {
 
-    color: greenyellow;
-}
 
 
 /* ! CONTENEDOR IMAGENES ICONOS */
@@ -179,7 +176,8 @@ input:focus {
 @media (max-width: 576px) {
 
     .container-general {
-        height: 100vh;
+        height: 110vh;
+        width: 320px;
 
 
     }
