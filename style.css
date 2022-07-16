@@ -659,6 +659,63 @@ body {
     color: black;
 }
 
+/* ! Datos */
+
+.section-container-datos {
+
+    background-color: black;
+}
+
+.section-datos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 0px;
+    width: 95%;
+    max-width: 1300px;
+}
+
+.container-card-datos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+.container-datos {
+    margin: 50px;
+    padding: 50px;
+
+}
+
+.title-datos {
+    font-family: 'Kdam Thmor Pro',
+        sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    padding: 30px;
+
+}
+
+.list a {
+
+    color: white;
+
+}
+
+.list a:hover {
+    color: var(--green);
+}
+
+
+
+
+
 
 
 
@@ -845,12 +902,42 @@ body {
     }
 
     .formulario input {
-        /* margin-bottom: 10px;
-        height: 24px;
-        padding: 0 90px; */
+
 
         padding: 0 40px;
     }
+
+    /* Mas datos */
+    .section-datos {
+
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* margin: 0 auto;
+        padding: 10px 0px;
+        width: 95%;
+        max-width: 1300px; */
+    }
+
+    .container-card-datos {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+
+    }
+
+    .container-datos {
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    .container-ul {
+        text-align: center;
+    }
+
 
 
 }
