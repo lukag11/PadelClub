@@ -85,24 +85,26 @@ body {
     padding: 10px 10px 10px 10px;
 }
 
-.signup {
+.signup,
+.signin {
     margin: 10px;
     background: white;
 
     /* border: 5px solid black; */
 }
 
-
-
-.signin {
-    margin: 10px;
-    background: white;
-    /* border: 1px solid black; */
+.signup,
+.signin i {
+    color: black;
 }
 
+
+
 .signin:hover,
-.signup:hover {
-    background: black;
+.signup:hover,
+.signin i :hover,
+.signup i :hover {
+    background: yellow;
     transition: all 0.4 linear;
 }
 
@@ -281,10 +283,17 @@ body {
 
 }
 
+
+
 .section-title {
     font-family: 'Kdam Thmor Pro',
         sans-serif;
     font-size: 80px;
+}
+
+.section-title::first-letter {
+    color: var(--green);
+
 }
 
 .section-p {
@@ -292,6 +301,7 @@ body {
     font-size: 20px;
     text-align: center;
     text-decoration: solid;
+
 
     color: black;
     background: #56ab2f;
@@ -532,6 +542,14 @@ body {
     height: 200px;
     background: no-repeat center/cover;
 }
+
+.paleta-img:nth-child(1):hover {
+    border: 1px solid red;
+}
+
+
+
+
 
 
 .section-p-estilo-paleta {
@@ -924,12 +942,14 @@ body {
         font-family: 'Times New Roman',
             Times,
             serif;
-        font-size: 15px;
+        font-size: 16px;
+        word-spacing: 1px;
         text-align: center;
         text-decoration: solid;
 
         color: black;
         background: #56ab2f;
+
 
     }
 
