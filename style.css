@@ -898,6 +898,20 @@ body {
         display: flex;
     }
 
+    .signup,
+    .signin {
+        margin: 10px;
+        background: white;
+
+        /* border: 5px solid black; */
+    }
+
+    .signup,
+    .signin i {
+        color: black;
+    }
+
+
 
 }
 
@@ -949,6 +963,7 @@ body {
 
         color: black;
         background: #56ab2f;
+        box-shadow: 5px 5px 5px 2px rgba(3, 255, 0, 0.5);
 
 
     }
